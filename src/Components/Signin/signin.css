@@ -1,15 +1,84 @@
 .loginContainer{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 .loginHeader{
-    width: 20%;
+    width: 40%;
     background-color: black;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
 }
 .loginHeader_h1{
     color: white;
+}
+.loginBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.loginBar_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 15px;
+    padding: 5px 15px 5px 15px;
+    color: '#ADADAD';
+}
+.loginBar_btn_span {
+   margin-left: 5px;
+}
+.loginBar_block {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+}
+.loginBar_input {
+    border: 0px;
+    width: 80%;
+    margin: 10px 0px 10px 0px;
+    background-color: '#ADADAD';
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    font-size: medium;
+}
+.loginBar_block_signin {
+    width: 100%;
+    font-size: medium;
+    border: 0px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .loginContainer{
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+    }      
+    .loginHeader {
+        width: 100%;
+        font-size: x-large;
+        height: auto;
+        margin-bottom: 50px;
+    }
 }
