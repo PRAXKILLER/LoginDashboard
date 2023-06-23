@@ -1,0 +1,12 @@
+.hh{
+    display: flex;
+    flex-direction: row;
+}
+.products_head{
+    display: flex;
+    flex-direction: row;
+}
+.products_body{
+    display: flex;
+    flex-direction: row;
+}

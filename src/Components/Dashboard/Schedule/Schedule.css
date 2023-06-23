@@ -1,0 +1,4 @@
+.schedule_head{
+    display: flex;
+    flex-direction: row;
+}
