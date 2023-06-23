@@ -14,10 +14,10 @@ function Dashboard() {
                 <NavBar />
                 <BoxMenu />
                 <Graph />
-                <div className='dashboardSub'>
+                {/* <div className='dashboardSub'>
                     <Products />
                     <Schedule/>
-                </div>
+                </div> */}
             </div>
         </div>
     )
